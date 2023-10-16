@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div>
+        <button id="btn" type="submit">
+
+        click me</button>
+    </div>
+
+    
+
+
+    <script>
+
+
+     
+     
+            
+        document.getElementById('btn').onclick = function(){
+
+            var currentdate = new Date()
+
+            var button = document.getElementById('btn')
+            
+
+            button.innerHTML = currentdate.toString()
+        } 
+         
+
+    </script>
+    
+</body>
+</html>
